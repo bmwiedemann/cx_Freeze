@@ -93,6 +93,7 @@ def init():
         "TK_LIBRARY",
         "PYTZ_TZDATADIR",
         "PYTHONTZPATH",
+        "SSL_CERT_FILE",
     ):
         try:
             value = getattr(BUILD_CONSTANTS, name)
